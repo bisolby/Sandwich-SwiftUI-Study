@@ -21,6 +21,8 @@
 		1BDABBCB2708173B001E28A0 /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDABBC82708173A001E28A0 /* Sandwich.swift */; };
 		1BDABBCC2708173B001E28A0 /* Sandwiches.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDABBC92708173A001E28A0 /* Sandwiches.xcassets */; };
 		1BDABBCD2708173B001E28A0 /* Sandwiches.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDABBC92708173A001E28A0 /* Sandwiches.xcassets */; };
+		1BDABBCF27082008001E28A0 /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDABBCE27082008001E28A0 /* SandwichDetail.swift */; };
+		1BDABBD027082008001E28A0 /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDABBCE27082008001E28A0 /* SandwichDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,7 @@
 		1BDABBB227081056001E28A0 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		1BDABBC82708173A001E28A0 /* Sandwich.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
 		1BDABBC92708173A001E28A0 /* Sandwiches.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sandwiches.xcassets; sourceTree = "<group>"; };
+		1BDABBCE27082008001E28A0 /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 			children = (
 				1BDABB8C27081055001E28A0 /* SandwichesApp.swift */,
 				1BDABB8D27081055001E28A0 /* ContentView.swift */,
+				1BDABBCE27082008001E28A0 /* SandwichDetail.swift */,
 				1BDABBC82708173A001E28A0 /* Sandwich.swift */,
 				1BDABBC92708173A001E28A0 /* Sandwiches.xcassets */,
 				1BDABB8E27081056001E28A0 /* Assets.xcassets */,
@@ -312,6 +316,7 @@
 				1BDABBB627081056001E28A0 /* ContentView.swift in Sources */,
 				1BDABBB427081056001E28A0 /* SandwichesApp.swift in Sources */,
 				1BDABBCA2708173B001E28A0 /* Sandwich.swift in Sources */,
+				1BDABBCF27082008001E28A0 /* SandwichDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +327,7 @@
 				1BDABBB727081056001E28A0 /* ContentView.swift in Sources */,
 				1BDABBB527081056001E28A0 /* SandwichesApp.swift in Sources */,
 				1BDABBCB2708173B001E28A0 /* Sandwich.swift in Sources */,
+				1BDABBD027082008001E28A0 /* SandwichDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
