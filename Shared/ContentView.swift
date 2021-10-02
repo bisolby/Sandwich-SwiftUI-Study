@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    var sandwiches: [Sandwich] = []
+    
     var body: some View {
-        List(0..<5) { item in
+        List(sandwiches) { sandwich in
             HStack {
-                Image(systemName: "photo")
+                Image(sandwich.thumbnailName)
+                    .cornerRadius(8)
                 VStack(alignment: .leading) {
-                    Text("My sandwich")
-                    Text("3 ingredients")
+                    Text(sandwich.name)
+                    Text("\(sandwich.ingredientCount) ingredients")
                         .font(.subheadline)
                         .foregroundColor(.secondary)
                 }
@@ -25,6 +28,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(sandwiches: testData)
     }
 }
