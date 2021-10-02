@@ -9,8 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List(0..<5) { item in
+            HStack {
+                Image(systemName: "photo")
+                VStack(alignment: .leading) {
+                    Text("My sandwich")
+                    Text("3 ingredients")
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                }
+            }
+        }
     }
 }
 
